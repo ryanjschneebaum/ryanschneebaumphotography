@@ -1,5 +1,6 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -7,6 +8,8 @@ body {
 }
 
 header {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,18 +34,23 @@ nav ul li {
 }
 
 nav ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     text-decoration: none;
     color: #333;
-    font-weight: bold;
 }
 
 #search {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     margin: 20px 0;
 }
 
 #search input {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     width: 300px;
     padding: 10px;
     border: 1px solid #ddd;
@@ -50,6 +58,8 @@ nav ul li a {
 }
 
 #search button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     padding: 10px;
     border: none;
     background-color: #333;
@@ -63,6 +73,8 @@ nav ul li a {
 }
 
 .gallery-container {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 10px;
@@ -75,6 +87,8 @@ nav ul li a {
 }
 
 footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     text-align: center;
     padding: 20px;
     background-color: #fff;
