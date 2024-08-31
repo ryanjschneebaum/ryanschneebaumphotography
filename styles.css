@@ -7,7 +7,7 @@
     color: #333;
 } */
 
-/* header {
+header {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     display: flex;
@@ -16,7 +16,7 @@
     padding: 20px;
     background-color: #fff;
     border-bottom: 1px solid #ddd;
-} */
+}
 
 /* .logo img {
     max-width: 150px;
