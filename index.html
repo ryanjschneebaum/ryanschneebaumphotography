@@ -8,45 +8,36 @@
 </head>
 <body>
     <header>
-        <h1>Your Name - Photography Portfolio</h1>
+        <div class="logo">
+            <img src="path/to/your-logo.png" alt="Your Logo">
+        </div>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Image Gallery</a></li>
+                <li><a href="#education">Photo Education</a></li>
+                <li><a href="#workshops">Workshops</a></li>
+                <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <h2>Welcome to My Photography Portfolio</h2>
-        <p>Explore my work and feel free to reach out for collaborations.</p>
+    <section id="search">
+        <input type="text" placeholder="Search for photos...">
+        <button>Search</button>
     </section>
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="gallery">
-            <!-- Image thumbnails will go here -->
+    <section id="gallery">
+        <div class="gallery-container">
+            <div class="gallery-item"><img src="path/to/photo1.jpg" alt="Photo 1"></div>
+            <div class="gallery-item"><img src="path/to/photo2.jpg" alt="Photo 2"></div>
+            <div class="gallery-item"><img src="path/to/photo3.jpg" alt="Photo 3"></div>
+            <div class="gallery-item"><img src="path/to/photo4.jpg" alt="Photo 4"></div>
+            <div class="gallery-item"><img src="path/to/photo5.jpg" alt="Photo 5"></div>
+            <!-- Add more images as needed -->
         </div>
-    </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Brief bio or artist statement.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
     </section>
 
     <footer>
